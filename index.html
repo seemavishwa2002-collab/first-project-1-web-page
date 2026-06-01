@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Web Page</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: #4a90e2;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    main {
+      padding: 40px;
+      text-align: center;
+    }
+
+    button {
+      background: #4a90e2;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #357abd;
+    }
+
+    footer {
+      margin-top: 40px;
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>My Simple Web Page</h1>
+  </header>
+
+  <main>
+    <h2>Welcome!</h2>
+    <p>This is a simple HTML and CSS webpage.</p>
+
+    <button onclick="showMessage()">
+      Click Me
+    </button>
+  </main>
+
+  <footer>
+    <p>© 2026 Simple Website</p>
+  </footer>
+
+  <script>
+    function showMessage() {
+      alert("Hello! Thanks for clicking.");
+    }
+  </script>
+
+</body>
+</html>
